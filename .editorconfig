@@ -1,5 +1,5 @@
 # editorconfig.org
-# plugin EditorConfig for VS Code  v0.16.4
+root = true
 
 [*]
 indent_style = space

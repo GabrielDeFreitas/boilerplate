@@ -1,18 +1,12 @@
-/** @type { import('@storybook/react-webpack5').StorybookConfig } */
-const config = {
+module.exports = {
+  staticDirs: ['../public'],
   stories: ['../src/components/**/stories.tsx'],
-  addons: [
-    '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    '@storybook/addon-interactions'
-  ],
-  framework: {
-    name: '@storybook/react-webpack5',
-    options: {}
+  addons: ['@storybook/addon-essentials', 'storybook-addon-next-router'],
+  core: {
+    builder: 'webpack5'
   },
-  docs: {
-    autodocs: 'tag'
+  webpackFinal: (config) => {
+    config.resolve.modules.push(`${process.cwd()}/src`)
+    return config
   }
 }
-export default config
-
