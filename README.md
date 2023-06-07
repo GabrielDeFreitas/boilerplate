@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code." height="225em">
-</div>
+<img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code." height="200em">
 
 ## What is inside?
 A simple project starter to work.
