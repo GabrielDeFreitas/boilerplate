@@ -1,4 +1,4 @@
-<img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code.">
+<img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code." height="350em">
 
 ## What is inside?
 A simple project starter to work.
