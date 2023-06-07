@@ -3,19 +3,20 @@ import { render, screen } from '@testing-library/react'
 import Main from '.'
 
 describe('<Main />', () => {
-  it('should render the heading', () => {
-    const { container } = render(<Main />)
+  it('should render the description', () => {
+    const description =
+      'A simple project starter to work with TypeScript, React, NextJS and Styled Components'
+    render(<Main description={description} />)
 
-    expect(
-      screen.getByRole('heading', { name: /react avançado/i })
-    ).toBeInTheDocument()
-
-    expect(container.firstChild).toMatchSnapshot()
+    expect(screen.getByText(description)).toBeInTheDocument()
   })
 
-  it('should render the colors correctly', () => {
-    const { container } = render(<Main />)
+  it('should render the image with the correct alt attribute', () => {
+    const altText = 'A developer facing a screen with code.'
+    render(<Main />)
 
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+    const image = screen.getByAltText(altText)
+    expect(image).toBeInTheDocument()
+    expect(image).toHaveAttribute('src', '/img/hero-illustration.svg')
   })
 })
