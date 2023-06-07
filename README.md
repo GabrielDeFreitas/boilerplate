@@ -1,4 +1,7 @@
+<img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code.">
+
 ## What is inside?
+A simple project starter to work.
 
 This project uses lot of stuff as:
 
