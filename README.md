@@ -1,7 +1,12 @@
 <img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code." height="200em">
 
+## Boilerplate
+
+Boilerplate is a term used in software development that refers to a standard code or text that can be reused in different parts of a project. 
+
+It provides a common and pre-established foundation, avoiding the need to write repetitive code.
+
 ## What is inside?
-A simple project starter to work.
 
 This project uses lot of stuff as:
 
