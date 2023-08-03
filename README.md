@@ -1,6 +1,4 @@
-<img src="public/img/hero-illustration.svg" alt="A developer facing a screen with code." height="200em">
-
-## Boilerplate
+## Next.js Boilerplate
 
 Boilerplate is a term used in software development that refers to a standard code or text that can be reused in different parts of a project. 
 
@@ -33,6 +31,12 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Starting a project through our boilerplate
+
+```bash
+yarn create next-app -e https://github.com/GabrielDeFreitas/boilerplate
+```
 
 ## Commands
 
